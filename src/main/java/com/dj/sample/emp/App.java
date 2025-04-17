@@ -41,7 +41,7 @@ public class App {
 
     List<Employee> emp_list = Arrays.asList(employee, new Employee("Ashok", 75000));
 
-    System.out.println("Highest Earner List");
+    System.out.println("Employees with highest salary within the org...");
     getHighestEarners(emp_list, 45000).forEach(System.out::println);
 
     Optional<Employee> highPaidEmp = getHighestPaidEmployee(emp_list);
